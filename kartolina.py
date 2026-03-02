@@ -3,9 +3,9 @@ st.set_page_config(page_title="Kartoline per 7 mars")
 st.subheader("Nje kartoline per ty")
 urim_per_mesuesit={
     "Xheni":"Ju falenderojme per dijet qe na jepni ne teknologji",
-    "Yllka":"Ju falenderojme per dijet qe na jepni ne biologji"
-    "Gladiola":"Ju falenderojme per dijet qe na jepni ne anglisht"
-    "Andi":"Ju falenderojme per dijet qe na jepni ne muzike"
+    "Yllka":"Ju falenderojme per dijet qe na jepni ne biologji",
+    "Gladiola":"Ju falenderojme per dijet qe na jepni ne anglisht",
+    "Andi":"Ju falenderojme per dijet qe na jepni ne muzike",
 }
 emri=st.text_input("Vendosni emrin tuaj: ")
 if st.button("Shfaq urimin 🌷"):
@@ -33,3 +33,4 @@ if st.button("Shfaq urimin 🌷"):
              </div>
 
              """, unsafe_allow_html=True)
+
